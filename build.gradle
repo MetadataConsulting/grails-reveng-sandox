@@ -33,7 +33,8 @@ dependencyManagement {
 }
 
 dependencies {
-    runtime 'mysql:mysql-connector-java:5.1.38'
+    runtime group: 'com.microsoft.sqlserver', name: 'sqljdbc4', version: '4.0'
+
     compile 'org.grails.plugins:db-reverse-engineer:4.0.0'
 
     compile "org.springframework.boot:spring-boot-starter-logging"
