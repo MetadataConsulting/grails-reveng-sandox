@@ -101,7 +101,7 @@ environments:
          dbCreate: none
          dialect: org.hibernate.dialect.MySQL5InnoDBDialect
          driverClassName: com.mysql.jdbc.Driver
-         password: password
+         password: thepassword
          username: root
          url: jdbc:mysql://localhost/imported
     test:
